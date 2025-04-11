@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trang Chủ - Vũ Bảo Sơn</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e6f0ff, #ffffff);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 5px solid #0077cc;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      object-fit: cover;
+      margin-bottom: 25px;
+    }
+    h1 {
+      font-size: 2.4em;
+      color: #0077cc;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+      color: #555;
+    }
+    .btn-group {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    a {
+      text-decoration: none;
+      background-color: #0077cc;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: background 0.3s ease;
+    }
+    a:hover {
+      background-color: #005999;
+    }
+  </style>
+</head>
+<body>
+  <img src="avatar.jpg" alt="Ảnh đại diện" class="profile-img" />
+
+  <h1>Vũ Bảo Sơn</h1>
+  <p>Chào mừng đến với trang cá nhân của mình!</p>
+
+  <div class="btn-group">
+    <a href="about.html">Thông Tin</a>
+    <a href="contact.html">Liên Hệ</a>
+  </div>
+
+</body>
+</html>
