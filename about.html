@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Thông Tin - Vũ Bảo Sơn</title>
+  <style>
+    /* VIDEO BACKGROUND */
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 120%;
+      height: 120%;
+      z-index: -1;
+      object-fit: cover;
+      transform: scale(0.95);
+      filter: brightness(0.7);
+    }
+
+    /* MAIN CONTENT BOX */
+    .container {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+      border: 2px solid #0077cc;
+      padding: 40px 60px;
+      max-width: 960px;
+      margin: 60px auto;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #222;
+      font-weight: 600;
+    }
+
+    img {
+      width: 150px;
+      border-radius: 50%;
+      border: 4px solid #0077cc;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    h1, h2 {
+      color: #005999;
+      font-weight: 700;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 10px 0 20px;
+    }
+
+    ul, ol {
+      display: inline-block;
+      text-align: left;
+      margin: 0 auto 30px;
+      padding-left: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    .back {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .back a {
+      text-decoration: none;
+      color: white;
+      background: #0077cc;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+    a:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- VIDEO BACKGROUND -->
+  <video autoplay muted loop class="video-bg">
+    <source src="video.mp4" type="video/mp4">
+    Trình duyệt của bạn không hỗ trợ video nền.
+  </video>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+    <img src="avatar.jpg" alt="Ảnh đại diện">
+    <h1>Vũ Bảo Sơn</h1>
+    <p>MSSV: 22080080 | Lớp: MET4.02</p>
+
+    <section>
+      <h2>Giới Thiệu</h2>
+      <p>Xin chào! Mình là một sinh viên đam mê công nghệ, yêu thích lập trình web và phát triển phần mềm.</p>
+    </section>
+
+    <section>
+      <h2>Sở thích</h2>
+      <ul>
+        <li>Code website</li>
+        <li>Chơi game chiến thuật</li>
+        <li>Nghe nhạc Lofi</li>
+        <li>Đọc sách phát triển bản thân</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kỹ năng</h2>
+      <ol>
+        <li>HTML, CSS, JavaScript</li>
+        <li>ReactJS cơ bản</li>
+        <li>Giao tiếp và teamwork</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Liên kết</h2>
+      <p>
+        <a href="https://facebook.com/sonvu.1908" target="_blank">Facebook</a> |
+        <a href="https://instagram.com/sonvu1908" target="_blank">Instagram</a> |
+        <a href="mailto:sonvu191108@gmail.com">Email</a>
+      </p>
+    </section>
+
+    <div class="back">
+      <a href="index.html">← Quay về Trang Chủ</a>
+    </div>
+  </div>
+
+</body>
+</html>

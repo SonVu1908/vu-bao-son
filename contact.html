@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Liên Hệ - Vũ Bảo Sơn</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      text-align: center;
+      color: #0077cc;
+      margin-bottom: 30px;
+      font-size: 2em;
+      font-weight: 700;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #0077cc;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #005999;
+    }
+
+    .back {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .back a {
+      text-decoration: none;
+      color: white;
+      background: #0077cc;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+
+    .back a:hover {
+      background: #005999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Liên Hệ Với Tôi</h1>
+    <form>
+      <input type="text" placeholder="Họ tên" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="4" placeholder="Nội dung..." required></textarea>
+      <button type="submit">Gửi</button>
+    </form>
+
+    <div class="back">
+      <a href="index.html">← Quay về Trang Chủ</a>
+    </div>
+  </div>
+
+</body>
+</html>
